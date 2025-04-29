@@ -29,6 +29,7 @@ sites:
     url: https://hicsts.hawaii.gov
   - name: mmp-sts-cannabis-ny-gov
     url: https://mmp-sts.cannabis.ny.gov
+    __dangerous__insecure: true
   - name: delaware-biotrackthc-net
     url: https://delaware.biotrackthc.net
   - name: delaware-biotrackthc-patients
@@ -57,9 +58,9 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
-  theme: dark
+  themeUrl: https://$OWNER.github.io/$REPO/assets/biotrack.css
   baseUrl: status-page
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://$OWNER.github.io/$REPO/assets/biotrack-icon.png
   name: BioTrack Status
   introTitle: "BioTrack Service Status"
   introMessage: >-
