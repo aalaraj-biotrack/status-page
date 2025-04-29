@@ -1,7 +1,7 @@
 url: https://mmp-sts.cannabis.ny.gov
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-04-29T18:59:10.605Z
+status: up
+code: 200
+responseTime: 129
+lastUpdated: 2025-04-29T19:29:27.457Z
 startTime: 2025-04-29T18:39:51.504Z
 generator: Upptime <https://github.com/upptime/upptime>
