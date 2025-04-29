@@ -1,19 +1,13 @@
+/* assets/biotrack-dark.css */
 :root {
-    /* Brand colors from the Biotrack logo */
-    --brand-blue:        #2974D6;  /* extracted from logo */
-    --brand-blue-dark:   #215EA7;  /* darker shade for borders/hover */
-    --brand-white:       #FFFFFF;
-  
-    /* Page palettes */
-    --body-background-color:   var(--brand-white);
-    --body-text-color:         #0C1A2B;       /* deep navy for contrast */
-    --card-background-color:   #F4F8FC;       /* very light blue/grey */
-    --nav-background-color:    var(--brand-blue);
-    --nav-border-bottom-color: var(--brand-blue-dark);
-  
-    /* Accent (links, buttons, etc.) */
-    --link-color:              var(--brand-blue);
-    --button-background-color: var(--brand-blue);
-    --button-text-color:       var(--brand-white);
-  }
-  
+  --body-background-color:   #001716;
+  --body-text-color:         #f0ffff;
+  --card-background-color:   #002b29;
+  --nav-background-color:    #002b29;
+  --nav-border-bottom-color: #015450;
+
+  /* make our blue pop as the “brand” accent */
+  --link-color:              #2974D6;
+  --button-background-color: #2974D6;
+  --button-text-color:       #ffffff;
+}
