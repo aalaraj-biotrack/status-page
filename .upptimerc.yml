@@ -58,22 +58,18 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
-  baseUrl: /status-page
-  # cname:        # ← only if you have a custom domain
-  name:   BioTrack Status
-  logoUrl:    /assets/biotrack-icon.png
-  theme:      dark            # use the built-in dark base
-  themeColor: "#2974D6"       # our Biotrack blue accent
-  themeUrl:   /assets/biotrack-dark.css  # load your custom overrides
-  introTitle:  "BioTrack Service Status"
+  themeUrl: "https://aalaraj-biotrack.github.io/status-page/assets/biotrack-dark.css"
+  logoUrl: "https://aalaraj-biotrack.github.io/status-page/assets/biotrack-icon.png"
+  baseUrl: status-page
+  name: BioTrack Status
+  introTitle: "BioTrack Status Page"
   introMessage: >-
-    Real-time uptime & performance data for all BioTrack endpoints.
+    This status page tracks uptime for all BioTrack endpoints
   navbar:
     - title: Status
       href: /
     - title: GitHub
-      href: https://github.com/aalaraj-biotrack/status-page
-
+      href: https://github.com/$OWNER/$REPO
       
 i18n:
   footer: This page is powered by [BioTrack](https://biotrack.com/)
