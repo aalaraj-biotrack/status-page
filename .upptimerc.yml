@@ -60,7 +60,7 @@ status-website:
   # cname: demo.upptime.js.org
   themeUrl: https://aalaraj-biotrack.github.io/status-page/assets/custom-theme.css
   logoUrl: https://aalaraj-biotrack.github.io/status-page/assets/biotrack-icon.png
-  baseUrl: /status-page
+  baseUrl: status-page
   name: BioTrack Status
   introTitle: "BioTrack Status Page"
   introMessage: >-
