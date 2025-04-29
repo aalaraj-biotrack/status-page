@@ -64,7 +64,7 @@ status-website:
   name: BioTrack Status
   introTitle: "BioTrack Service Status"
   introMessage: >-
-    This status page tracks uptime for all BioTrack endpoints.
+    This status page tracks uptime for all BioTrack endpoints
   navbar:
     - title: Status
       href: /
