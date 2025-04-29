@@ -58,6 +58,7 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
+  theme: night
   themeUrl: https://aalaraj-biotrack.github.io/status-page/assets/custom-theme.css
   logoUrl: https://aalaraj-biotrack.github.io/status-page/assets/biotrack-icon.png
   baseUrl: status-page
