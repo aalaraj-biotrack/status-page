@@ -59,9 +59,9 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
   name: BioTrack Status
-  theme: ocean
-  themeUrl: https://aalaraj-biotrack.github.io/status-page/assets/biotrack.css
-  logoUrl: https://aalaraj-biotrack.github.io/status-page/assets/biotrack-circle.png
+  # theme: ocean
+  themeUrl: "https://raw.githubusercontent.com/aalaraj-biotrack/status-page/master/assets/biotrack.css"
+  logoUrl: "https://raw.githubusercontent.com/aalaraj-biotrack/status-page/master/assets/biotrack-icon.png"
   baseUrl: /status-page
   introTitle: "BioTrack Status Page"
   introMessage: This status page tracks uptime for all BioTrack endpoints
