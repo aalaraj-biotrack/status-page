@@ -60,12 +60,11 @@ status-website:
   # cname: demo.upptime.js.org
   name: BioTrack Status
   theme: ocean
-  # themeUrl: /assets/custom-theme.css
-  # logoUrl: https://aalaraj-biotrack.github.io/status-page/assets/biotrack-icon.png
+  themeUrl: https://aalaraj-biotrack.github.io/status-page/assets/biotrack.css
+  logoUrl: https://aalaraj-biotrack.github.io/status-page/assets/biotrack-circle.png
   baseUrl: /status-page
   introTitle: "BioTrack Status Page"
-  introMessage: >-
-    This status page tracks uptime for all BioTrack endpoints
+  introMessage: This status page tracks uptime for all BioTrack endpoints
   navbar:
     - title: Status
       href: https://$OWNER.github.io/$REPO
