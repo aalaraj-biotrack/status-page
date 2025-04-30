@@ -57,8 +57,12 @@ sites:
 status-website:
   baseUrl: /status-page
   name: BioTrack Status
-  theme: biotrack
-  themeUrl: https://raw.githubusercontent.com/aalaraj-biotrack/status-page/master/assets/biotrack.css
+  # theme: biotrack
+  # themeUrl: https://raw.githubusercontent.com/aalaraj-biotrack/status-page/master/assets/biotrack.css
+  status-website:
+  links:
+    - rel: stylesheet
+      href: https://raw.githubusercontent.com/aalaraj-biotrack/status-page/master/assets/biotrack.css
   logoUrl: https://raw.githubusercontent.com/aalaraj-biotrack/status-page/master/assets/biotrack-icon.png
   introTitle: "BioTrack Status Page"
   introMessage: This status page tracks uptime for all BioTrack endpoints
