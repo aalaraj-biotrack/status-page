@@ -55,24 +55,28 @@ sites:
 
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  # cname: demo.upptime.js.org
-  name: BioTrack Status
-  # theme: ocean
-  themeUrl: https://raw.githubusercontent.com/aalaraj-biotrack/status-page/master/assets/biotrack.css
-  logoUrl: https://raw.githubusercontent.com/aalaraj-biotrack/status-page/master/assets/biotrack-icon.png
-  baseUrl: /status-page
-  introTitle: "BioTrack Status Page"
-  introMessage: This status page tracks uptime for all BioTrack endpoints
+  name:        BioTrack Status
+  theme:       dark
+  themeColor:  "#2974D6"
+  logoUrl:     "https://raw.githubusercontent.com/aalaraj-biotrack/status-page/master/assets/biotrack-icon.png"
+  baseUrl:     /status-page
+
+  # load your custom CSS _after_ the default styles
+  links:
+    - rel: stylesheet
+      href: "https://raw.githubusercontent.com/aalaraj-biotrack/status-page/master/assets/biotrack.css"
+
+  introTitle:   "BioTrack Status Page"
+  introMessage: "This status page tracks uptime for all BioTrack endpoints"
   navbar:
     - title: Status
-      href: https://$OWNER.github.io/$REPO
+      href: /
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-      
+      href: https://github.com/aalaraj-biotrack/status-page
+
 i18n:
-  footer: This page is powered by [BioTrack](https://biotrack.com/)
+  footer: "This page is powered by [BioTrack](https://biotrack.com/)"
+
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
