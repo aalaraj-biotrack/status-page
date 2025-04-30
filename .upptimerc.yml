@@ -55,28 +55,21 @@ sites:
 
 
 status-website:
-  name:        BioTrack Status
-  theme:       dark
-  themeColor:  "#2974D6"
-  logoUrl:     "https://raw.githubusercontent.com/aalaraj-biotrack/status-page/master/assets/biotrack-icon.png"
-  baseUrl:     /status-page
-
-  # load your custom CSS _after_ the default styles
-  links:
-    - rel: stylesheet
-      href: "https://raw.githubusercontent.com/aalaraj-biotrack/status-page/master/assets/biotrack.css"
-
-  introTitle:   "BioTrack Status Page"
-  introMessage: "This status page tracks uptime for all BioTrack endpoints"
+  baseUrl: /status-page
+  name: BioTrack Status
+  theme: biotrack
+  themeUrl: https://raw.githubusercontent.com/aalaraj-biotrack/status-page/master/assets/biotrack.css
+  logoUrl: https://raw.githubusercontent.com/aalaraj-biotrack/status-page/master/assets/biotrack-icon.png
+  introTitle: "BioTrack Status Page"
+  introMessage: This status page tracks uptime for all BioTrack endpoints
   navbar:
     - title: Status
-      href: /
+      href: https://$OWNER.github.io/$REPO
     - title: GitHub
-      href: https://github.com/aalaraj-biotrack/status-page
-
+      href: https://github.com/$OWNER/$REPO
+      
 i18n:
-  footer: "This page is powered by [BioTrack](https://biotrack.com/)"
-
+  footer: This page is powered by [BioTrack](https://biotrack.com/)
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
